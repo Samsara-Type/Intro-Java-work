@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Howold2
+{
+		public static void main( String[] args)
+		
+		Scanner keyboard = new Scanner(System.in);
+
+		String yourname;
+		int yourage;
+		
+		System.out.print( "Hey, whats your name? "}
+		yourname = keyboard.next ();
+		
+		System.out.print( "Ok " + yourname + "how old are you? ")
+		yourage = keyboard.nextInt ();
+		
+		if ( yourage < 16 )
+		{
+				system.out.println( " Seems you cant legally drive yet."
+		}
+		if ( (yourage > 16) = 17 )
+		{
+				system.out.println( " You can drive but not vote. "}
